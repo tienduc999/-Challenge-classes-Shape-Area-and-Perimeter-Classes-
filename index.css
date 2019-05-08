@@ -1,0 +1,22 @@
+.content {
+    width: 900px;
+    margin: auto;
+}
+
+input {
+    width: 50px;
+    margin-top: 10px;
+}
+
+.shape {
+    display: none;
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.result {
+    display: none;
+}

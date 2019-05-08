@@ -1,0 +1,54 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculation Shape</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<div class="content">
+    <form>
+        <h3>Select shape</h3>
+        <select name="type" id="type" class="form-control">
+            <option>Select shape</option>
+            <option value="1">hình chữ nhật</option>
+            <option value="2">hình vuông</option>
+            <option value="3">hình tam giác</option>
+            <option value="4">hình thoi</option>
+            <option value="5">hình tròn</option>
+        </select>
+        <label class="rectangle rhombus shape">Mời bạn nhập chiều dài</label>
+        <input type="number" class="form-control shape rectangle rhombus" id="length">
+        <label class="shape rectangle square">Mời bạn nhập chiều rộng</label>
+        <input type="number" class="shape form-control rectangle square" id="width">
+        <label class="shape diagonal-line-1 rhombus">Mời bạn nhập dường chéo 1</label>
+        <input type="number" class="form-control shape diagonal-line-1 rhombus" id="diagonal-line-1">
+        <label class="diagonal-line-2 shape rhombus">Mời bạn nhập dường chéo 2</label>
+        <input type="number" class="form-control shape diagonal-line-2 rhombus" id="diagonal-line-2">
+        <label class="shape triangle">Mời bạn nhập cạnh a</label>
+        <input type="number" class="shape form-control triangle" id="slide-a">
+        <label class="shape triangle">Mời bạn nhập cạnh b</label>
+        <input type="number" class="shape form-control triangle" id="slide-b">
+        <label class="shape triangle">Mời bạn nhập cạnh c</label>
+        <input type="number" class="shape form-control triangle" id="slide-c">
+        <label class="shape circle">Mời bạn nhập bán kính</label>
+        <input type="number" class="shape form-control circle" id="radius">
+        <button type="submit" class="btn btn-send" id="btn">Send</button>
+    </form>
+
+    <div class="result">
+        <div class="alert alert-success" role="alert">
+            Diện tích là: <span id="acreage"></span>
+        </div>
+        <div class="alert alert-info" role="alert">
+            Chu vi là: <span id="perimeter"></span>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
