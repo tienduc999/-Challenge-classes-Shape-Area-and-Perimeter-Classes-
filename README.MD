@@ -17,5 +17,4 @@ Từ giao diện sẽ gọi tới api, api xác định xem cần tính diện t
 
 **GIAO DIỆN**
 
-<img src="https://i.ibb.co/dP8ttGX/demo.gif"></a><br /><a target='_blank' href='https://statewideinventory.org/'>
-
+![](demo.gif)
